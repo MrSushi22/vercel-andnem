@@ -36,6 +36,13 @@ export default function Home() {
                 />
               </li>
               <li>
+                <button id="redirect">Resume1</button>
+                <script>
+                  document.querySelector("#redirect")
+                    .addEventListener("click", () => {
+                    window.location.href = "https://drive.google.com/file/d/1iZQciZMZb3q1tn5QFS5pw6mYU8oRPzZi/preview";
+                  });
+                </script>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#">Resume</a>
