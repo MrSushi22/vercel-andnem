@@ -36,13 +36,6 @@ export default function Home() {
                 />
               </li>
               <li>
-                <button id="redirect">Resume1</button>
-                <script>
-                  document.querySelector("#redirect")
-                    .addEventListener("click", () => {
-                    window.location.href = "https://drive.google.com/file/d/1iZQciZMZb3q1tn5QFS5pw6mYU8oRPzZi/preview";
-                  });
-                </script>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#">Resume</a>
@@ -55,11 +48,10 @@ export default function Home() {
                 András Németh
               </h2>
               <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-                Developer and designer.
+                Frontend developer.
               </h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                Freelancer providing services for programming and design content
-                needs. Join me down below and let's get cracking!
+                I am based in Denmark and I designe and build websites.
               </p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
                 <AiFillGithub />
