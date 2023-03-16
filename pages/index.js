@@ -55,9 +55,9 @@ export default function Home() {
                 needs. Join me down below and let's get cracking!
               </p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                <AiFillGithub />
-                <AiFillLinkedin />
-                <AiFillYoutube />
+              <a href="https://github.com/MrSushi22" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+              <a href="https://www.linkedin.com/in/andras-nemeth-andnem/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+              <a href="https://www.youtube.com/@and_the_nem" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
               </div>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
@@ -144,7 +144,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            {/* <div className="basis-1/3 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -197,7 +197,7 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
