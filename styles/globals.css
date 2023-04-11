@@ -22,3 +22,15 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+a:hover .github-icon {
+  color: black;
+}
+
+a:hover .linkedin-icon {
+  color: #0A66C2;
+}
+
+a:hover .youtube-icon {
+  color: #FF0000;
+}
